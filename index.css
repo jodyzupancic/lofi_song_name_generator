@@ -1,0 +1,87 @@
+body {
+    background-color:  #98979e;
+    display:flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+}
+
+.head-container {
+    align-items: center;
+    background-color: #98979e;
+    border: 1px solid #443834;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px;
+    height: 300px;
+    justify-content: center;
+    width: 500px;
+    margin: 15px 200px;
+}
+
+.title {
+    background-image: url("lofi_tape5.png");
+    background-size: 100%;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-weight: 300;
+    height: 200px;
+    letter-spacing: 22;
+    margin-top: 0;
+    text-shadow: 3px 3px #C77DFF;
+    width: 100%;
+}
+
+.generate-button {
+    background-color: #19161a;
+    border-color: #C77DFF;
+    border-radius: 9px;
+    color: whitesmoke;
+    font-size: 15px;
+    letter-spacing: 12;
+    margin-left: 200px;
+    padding: 6px 12px;
+    text-align: left;
+    text-shadow: 2px 2px #C77DFF;
+}
+
+.rendered-content-box {
+    background: #EBC9FF;
+    border: 1px dotted #C77DFF;
+    border-radius: 15px;
+    display: flex;
+    font-weight: 400;
+    height: 270px;
+    letter-spacing: 7;
+    margin: 20px 200px 20px 320px;
+    width: 700px;
+}
+
+#content-el-one,
+#content-el-two {
+    width: 350px;
+}
+
+.about-section {
+    height: 350px;
+    letter-spacing: 3;
+    margin: 50px auto;
+    text-align: center;
+    width: 500px;
+}
+
+h4 {
+    letter-spacing: 8;
+}
+
+.about-description {
+    font-size: 12px;
+}
+
+.TLA-description {
+    font-size: 10px; 
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+}
